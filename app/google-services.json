@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "838029003033",
+    "firebase_url": "https://aiteo-4d121.firebaseio.com",
+    "project_id": "aiteo-4d121",
+    "storage_bucket": "aiteo-4d121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838029003033:android:82f5475d5b7fba52",
+        "android_client_info": {
+          "package_name": "com.adamapps.aiteo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838029003033-4ovftm3r0p3i2s530ughcl9rnaede56d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adamapps.aiteo",
+            "certificate_hash": "bec3ab8c42f4d910bb23c4461d028804c225193c"
+          }
+        },
+        {
+          "client_id": "838029003033-umthor9m2brql54v1gfot7jdujuo4m6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAauchlQnMkdr7_3k0xTjvGpSh6DymYU_A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838029003033-umthor9m2brql54v1gfot7jdujuo4m6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

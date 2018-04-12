@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.HomeFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/home_post_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.mypopsy.widget.FloatingSearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingTop="16dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:layout_margin="20dp"
+        android:background="#90000000"
+        android:hint="@string/hint"
+        app:logo="@drawable/ic_google"
+        app:fsv_menu="@menu/search"
+        app:fsv_cornerRadius="7dp"
+        app:fsv_contentBackgroundColor="#c0c0c0"/>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/new_post_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        app:fabSize="mini"
+        android:src="@drawable/fab_add"/>
+
+</RelativeLayout>
